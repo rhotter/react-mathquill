@@ -19,7 +19,7 @@
     "prepublishOnly": "npm run test"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
@@ -28,19 +28,19 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
-    "eslint": "^7.32.0",
+    "eslint": "^8.20.0",
     "eslint-plugin-react": "^7.30.1",
-    "exports-loader": "^3.1.0",
+    "exports-loader": "^4.0.0",
     "file-loader": "^6.2.0",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
-    "imports-loader": "^3.1.1",
+    "imports-loader": "^4.0.0",
     "jquery": "^3.6.0",
     "mathquill": "github:rhotter/mathquill",
     "prettier": "^2.7.1",
     "prop-types": "^15.8.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "string-replace-loader": "^3.1.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.73.0",
