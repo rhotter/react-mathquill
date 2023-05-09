@@ -64,7 +64,9 @@ module.exports = (env, args) => ({
                 moduleName: 'jquery',
                 name: '__webpack_jquery',
               },
-              additionalCode: 'window.jQuery=__webpack_jquery;',
+              additionalCode: process.browser
+                ? 'window.jQuery=__webpack_jquery;'
+                : '',
             },
           },
           {
